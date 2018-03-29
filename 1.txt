@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+case $1 in
+txt)
+	find . -name '*.txt'|xargs grep -A 1 '//##\\'|grep -v '//##\\';;
+*)
+	find . -not -name '*.txt'| xargs grep -A 1 '//##\\' |grep -v '//##\\' |sed 's/$/ <---Oops/';;
+esac
+
