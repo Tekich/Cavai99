@@ -1,0 +1,41 @@
+body{background: #8fa0bc url(images/background.jpg); margin: 0; padding: 0;
+	font: 16px/24px Arial, Tahoma,sans-serif;}
+
+a{text-decoration: none;}
+
+/*Структура*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background: #101417;}
+div.footer{margin:20px 0;text-align: center; text-transform: uppercase;}
+
+/*Шапка*/
+div.topmenu{float: right; height: 102px; line-height: 102px;}
+div.topmenu a{margin: 0 0 0 10px; color: #1683a3;}
+div.topmenu a:hover{color: #fff;}
+
+/*Менюшка*/
+div.menu{background: #1683a3; border: 1px solid #016c8b; border-left: none;border-right: none;}
+div.menu ul{margin: 0;padding: 0;list-style: none; text-align: center;}
+div.menu ul li {display: inline-block; margin: 5px 30px;}
+div.menu ul li a{color: #fff; text-transform: uppercase; text-shadow: 1px 1px 3px #0b4455;}
+div.menu li {color: #fff; text-transform: uppercase; text-shadow: 1px 1px 3px #0b4455;}
+div.menu ul li a:hover{color: #a3e1f3;}
+
+/*Контент сайта*/
+
+div.mainpage {background: #fff; border: 1px solid #ccc; border-top: none; padding: 40px;}
+div.mainpage div.clear {border-bottom: 1px dashed #ccc;}
+div.block {width: 440px;float: left; margin-bottom: 20px}
+div.block:nth-of-type(even) {float: right;}
+div.anons {background: #f5f5f5; border: 3px solid #8fa0bc; border-radius: 3px; padding: 20px;}
+div.anons:hover {background: #e0eff4; border: 1px solid #bfd5dd; transition: all 1s;}
+div.anons img {box-shadow: 1px 1px 5px #777;}
+div.anons li {text-align: center; font-size: 10px;font-weight: bold; margin: 10px 80px 5px;padding: 0;color: #01617d; 
+			  line-height: 1px;}
+
+/*Подвал*/
+div.footer {margin: 20px 0;}
+
+
+
+div.clear{clear: both;}
